@@ -24,15 +24,18 @@ This is a fully responsive **Food Delivery Frontend Application** built with Rea
    ```
 2. **Install dependencies**
    ```bash
+   npm create @vitelatest
+   cd project_folder
    npm install
+   npm install -D tailwindcss@3 postcss autoprefixer npx tailwindcss init -p 
+
+npm install react-icons
+npm install @reduxjs/toolkit react-redux
    ```
 3. **Run the application**
    ```bash
-   npm start
+   npm run dev
    ```
-4. **Access the application**
-   - Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ## Folder Structure
 ```
 food-delivery-frontend/
