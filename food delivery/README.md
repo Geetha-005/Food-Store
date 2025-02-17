@@ -18,24 +18,41 @@ Overview:
 This is a fully responsive Food Delivery Frontend Application built with React.js and Redux Toolkit. The application allows users to view real-time food items available in the store, add them to the cart, remove items, and place orders seamlessly.
 
 food-delivery-frontend/
-├── src/
+├── src/                                                                                                                                    
 │   ├── components/
+
 │   │   ├── Nav.js
+
 │   │   ├── Card.js
+
 │   │   ├── Card2.js
+
 │   ├── pages/
+
 │   │   ├── Home.js
+
 │   ├── context/
+
 │   │   ├── UserContext.js
+
 │   ├── redux/
+
 │   │   ├── cartSlice.js
+
         |---store.js
+        
 │   ├── assets/
+
 │   ├── App.js
+
 │   ├── index.js
+
 ├── public/
+
 ├── package.json
+
 ├── README.md
+
 
 Redux Store Implementation:
 cartSlice.js manages the cart state using Redux Toolkit.Users can add or remove items, and quantities update in real-time.
